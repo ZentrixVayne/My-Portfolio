@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshman Anil | Web & Mobile App Designer/Developer</title>
+    <meta name="description" content="Portfolio of Arshman Anil, a web and mobile app designer and developer from Karachi, Pakistan.">
+    <meta property="og:title" content="Arshman Anil | Web & Mobile App Designer/Developer">
+    <meta property="og:description" content="Portfolio of Arshman Anil, a web and mobile app designer and developer from Karachi, Pakistan.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="logo-loader">AA</div>
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <a href="index.html">AA</a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Arshman Anil</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span class="text-animation"></span>
+                    </div>
+                    <p class="hero-description">
+                        A passionate web and mobile app designer & developer from Karachi, Pakistan. 
+                        I craft beautiful digital experiences with clean code and creative design.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">Hire Me</a>
+                        <a href="projects.html" class="btn btn-outline">View Projects</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="https://picsum.photos/seed/arshman/400/400.jpg" alt="Arshman Anil">
+                        </div>
+                        <div class="profile-info">
+                            <h3>Arshman Anil</h3>
+                            <p>Web & Mobile App Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">2+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">AA</a>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2023 Arshman Anil. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="main.js"></script>
+    <script>
+        // Dynamic title animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const titles = [
+                'Arshman Anil | Web & Mobile App Designer/Developer',
+                'Arshman Anil | UI/UX Enthusiast',
+                'Arshman Anil | Creative Coder',
+                'Arshman Anil | React Developer'
+            ];
+            let index = 0;
+            
+            setInterval(() => {
+                document.title = titles[index];
+                index = (index + 1) % titles.length;
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
