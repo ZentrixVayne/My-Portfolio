@@ -1,0 +1,104 @@
+/* ====== MOBILE SPECIFIC STYLES ====== */
+@media (max-width: 768px) {
+    /* Simplified animations for mobile */
+    .hero-text {
+        animation: fadeInUp 0.8s ease;
+    }
+    
+    .hero-image {
+        animation: fadeInUp 0.8s ease;
+    }
+    
+    /* Touch-friendly navigation */
+    .nav-link {
+        padding: 10px 0;
+        font-size: 1.2rem;
+    }
+    
+    /* Simplified hero section */
+    .hero {
+        min-height: 90vh;
+        padding-top: 70px;
+    }
+    
+    .profile-card {
+        width: 300px;
+        height: 300px;
+    }
+    
+    /* Simplified project cards */
+    .project-card {
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Simplified skill cards */
+    .skill-card {
+        padding: 1.5rem;
+    }
+    
+    /* Touch-friendly buttons */
+    .btn {
+        padding: 15px 25px;
+        font-size: 1rem;
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    /* Simplified form elements */
+    .form-group input,
+    .form-group textarea {
+        padding: 15px;
+        font-size: 1rem;
+    }
+    
+    /* Simplified social links */
+    .social-link {
+        width: 45px;
+        height: 45px;
+    }
+    
+    /* Simplified timeline */
+    .timeline-item {
+        margin-bottom: 2rem;
+    }
+    
+    .timeline-content {
+        padding: 1rem;
+    }
+    
+    /* Simplified stats */
+    .stat-card {
+        padding: 1.5rem;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    /* Simplified info cards */
+    .info-card {
+        padding: 1rem;
+    }
+    
+    .info-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    /* Simplified tool items */
+    .tool-item {
+        padding: 1.5rem;
+    }
+    
+    .tool-item i {
+        font-size: 2rem;
+    }
+    
+    /* Simplified back to top button */
+    .back-to-top {
+        width: 45px;
+        height: 45px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
